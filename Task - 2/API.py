@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = 'sk-proj-9JCTe74X0qwNjj6pr4yNT3BlbkFJgnDdjsk9wEcRyD9c03xk'
+openai.api_key = 'API Key'
 
 def get_thought_of_the_day():
     try:
