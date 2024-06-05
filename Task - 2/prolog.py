@@ -1,8 +1,10 @@
 import openai
 import swiplserver
 import time
+import os
 
-openai.api_key = os.getenv("MY_API_KEY")
+# Uncomment the line below and enter your API key
+#openai.api_key = os.getenv("MY_API_KEY")
 
 def get_prolog_fact():
     try:
