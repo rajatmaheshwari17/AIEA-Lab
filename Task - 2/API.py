@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = 'API Key'
+openai.api_key = os.getenv("MY_API_KEY")
 
 def get_thought_of_the_day():
     try:

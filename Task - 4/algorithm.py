@@ -2,8 +2,9 @@ import openai
 import swiplserver
 import re
 import tempfile
+import os
 
-openai.api_key = 'API Key'
+openai.api_key = os.getenv("MY_API_KEY")
 
 def formulate_problem(prompt):
     response = openai.ChatCompletion.create(
