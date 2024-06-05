@@ -4,7 +4,8 @@ import re
 import tempfile
 import os
 
-openai.api_key = os.getenv("MY_API_KEY")
+# Uncomment the line below and enter your API key
+#openai.api_key = os.getenv("MY_API_KEY")
 
 def formulate_problem(prompt):
     response = openai.ChatCompletion.create(
